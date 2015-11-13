@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A455CC1BF6A03B00909134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A455CB1BF6A03B00909134 /* AppDelegate.swift */; };
+		88A455CE1BF6A03B00909134 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A455CD1BF6A03B00909134 /* FirstViewController.swift */; };
+		88A455D01BF6A03B00909134 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A455CF1BF6A03B00909134 /* SecondViewController.swift */; };
+		88A455D31BF6A03B00909134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A455D11BF6A03B00909134 /* Main.storyboard */; };
+		88A455D51BF6A03B00909134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A455D41BF6A03B00909134 /* Assets.xcassets */; };
+		88A455D81BF6A03B00909134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A455D61BF6A03B00909134 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88A455C81BF6A03B00909134 /* TV Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A455CB1BF6A03B00909134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88A455CD1BF6A03B00909134 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		88A455CF1BF6A03B00909134 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		88A455D21BF6A03B00909134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A455D41BF6A03B00909134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A455D71BF6A03B00909134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A455D91BF6A03B00909134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A455C51BF6A03B00909134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A455BF1BF6A03B00909134 = {
+			isa = PBXGroup;
+			children = (
+				88A455CA1BF6A03B00909134 /* TV Alert */,
+				88A455C91BF6A03B00909134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A455C91BF6A03B00909134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A455C81BF6A03B00909134 /* TV Alert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A455CA1BF6A03B00909134 /* TV Alert */ = {
+			isa = PBXGroup;
+			children = (
+				88A455CB1BF6A03B00909134 /* AppDelegate.swift */,
+				88A455CD1BF6A03B00909134 /* FirstViewController.swift */,
+				88A455CF1BF6A03B00909134 /* SecondViewController.swift */,
+				88A455D11BF6A03B00909134 /* Main.storyboard */,
+				88A455D41BF6A03B00909134 /* Assets.xcassets */,
+				88A455D61BF6A03B00909134 /* LaunchScreen.storyboard */,
+				88A455D91BF6A03B00909134 /* Info.plist */,
+			);
+			path = "TV Alert";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A455C71BF6A03B00909134 /* TV Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A455DC1BF6A03B00909134 /* Build configuration list for PBXNativeTarget "TV Alert" */;
+			buildPhases = (
+				88A455C41BF6A03B00909134 /* Sources */,
+				88A455C51BF6A03B00909134 /* Frameworks */,
+				88A455C61BF6A03B00909134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Alert";
+			productName = "TV Alert";
+			productReference = 88A455C81BF6A03B00909134 /* TV Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A455C01BF6A03B00909134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CeroUno;
+				TargetAttributes = {
+					88A455C71BF6A03B00909134 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 88A455C31BF6A03B00909134 /* Build configuration list for PBXProject "TV Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A455BF1BF6A03B00909134;
+			productRefGroup = 88A455C91BF6A03B00909134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A455C71BF6A03B00909134 /* TV Alert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A455C61BF6A03B00909134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A455D81BF6A03B00909134 /* LaunchScreen.storyboard in Resources */,
+				88A455D51BF6A03B00909134 /* Assets.xcassets in Resources */,
+				88A455D31BF6A03B00909134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A455C41BF6A03B00909134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A455D01BF6A03B00909134 /* SecondViewController.swift in Sources */,
+				88A455CC1BF6A03B00909134 /* AppDelegate.swift in Sources */,
+				88A455CE1BF6A03B00909134 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88A455D11BF6A03B00909134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A455D21BF6A03B00909134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A455D61BF6A03B00909134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A455D71BF6A03B00909134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A455DA1BF6A03B00909134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88A455DB1BF6A03B00909134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A455DD1BF6A03B00909134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TV Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerouno.TV-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88A455DE1BF6A03B00909134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TV Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerouno.TV-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A455C31BF6A03B00909134 /* Build configuration list for PBXProject "TV Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A455DA1BF6A03B00909134 /* Debug */,
+				88A455DB1BF6A03B00909134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A455DC1BF6A03B00909134 /* Build configuration list for PBXNativeTarget "TV Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A455DD1BF6A03B00909134 /* Debug */,
+				88A455DE1BF6A03B00909134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A455C01BF6A03B00909134 /* Project object */;
+}
